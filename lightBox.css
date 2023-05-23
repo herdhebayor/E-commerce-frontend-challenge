@@ -1,0 +1,54 @@
+.light-box-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:none ;
+}
+.light-box-wrapper{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.light-box-product-image{
+    width: 400px;
+    position: relative;
+}
+.close-light-box{
+    position: absolute;
+    right: 0px;
+    top: -30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+.close-light-box:hover{
+    color: hsl(26, 100%, 55%);
+}
+.nav-btn{
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.light-box-next{
+    top: 150px;
+    right: -15px;
+}
+.light-box-prev{
+    top: 150px;
+    left: -15px;
+}
+.nav-btn:hover{
+    color: hsl(26, 100%, 55%);
+}
